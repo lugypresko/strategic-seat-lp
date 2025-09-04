@@ -7,10 +7,7 @@ export default function App() {
       <p className="text-gray-600 max-w-prose text-center">
         High-converting landing page starter. Replace this with your real content.
       </p>
-      <a
-        href="#contact"
-        className="mt-8 rounded-xl border px-6 py-3 hover:bg-gray-50 transition"
-      >
+      <a href="#contact" className="mt-8 rounded-xl border px-6 py-3 hover:bg-gray-50 transition">
         Book a Call
       </a>
     </main>
