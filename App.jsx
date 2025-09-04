@@ -3,15 +3,7 @@ import { useEffect } from 'react';
 import { initGA, trackEvent } from './lib/analytics';
 
 export default function App() {
-  useEffect(() => {
-    initGA();
-    
-    // Track page view
-    trackEvent('page_view', {
-      page_title: 'Strategic Seat Landing Page',
-      page_location: window.location.href
-    });
-  }, []);
+  // Analytics temporarily disabled — will be added after deployment
   
   // Rest of your component
 }
