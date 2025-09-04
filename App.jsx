@@ -1,3 +1,3 @@
-// Add to your App component
-import { useEffect } from 'react';
-}
+import { Analytics } from '@vercel/analytics/react';
+// ...inside return:
+<Analytics />
